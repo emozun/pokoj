@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>POKOJ</title>
+  <meta name="description" content="POKOJ">
+  <meta name="keywords" content="イラスト,版権,ハロプロ">
+  <link rel="stylesheet" type="text/css" href="css/common.css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <script src="js/jquery.imagemapster.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li><a href="illust.html">ILLUSTRATION</a></li>
+        <li><a href="http://mozumozu.hatenadiary.jp/">BLOG</a></li>
+        <li><a href="link.html">LINK</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+     <div class="topillust">
+        <h1>POKOJ</h1>
+        <p>ポコイ</p>
+        </div>
+
+<div id="imagemaparea">
+        <p><img src="image/madori.png" alt="間取り" usemap="#shape1" id="map1"></p>
+        <map name="shape1">
+          <area shape="rect" coords="155,170,270,235" href="index.html" alt="TOP" region="TOP">
+          <area shape="rect" coords="155,245,270,321" href="http://mozumozu.hatenadiary.jp/" alt="BLOG" region="BLOG">
+          <area shape="rect" coords="155,324,270,413" href="link.html" alt="LINK" region="LINK">
+          <area shape="rect" coords="155,430,436,716" href="illust.html" alt="ILLUST" region="ILLUST">
+          <area shape="rect" coords="279,102,436,414" href="About.html" alt="ABOUT" region="ABOUT">
+        </map>
+</div>
+
+
+      <script>
+      $(document).ready(function ()
+      {
+          $('#map1').mapster({
+          singleSelect : true,
+          clickNavigate : true,
+          render_highlight : { altImage : 'image/madori2.png' },
+          mapKey: 'region',
+          fillOpacity : 1,
+      });
+      });
+      </script>
+
+<!--
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        $(function(){
+            var setImg = '#viewer';
+            var fadeSpeed = 1000;
+            var switchDelay = 6000;
+
+            $(setImg).children('img').css({opacity:'0'});
+            $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
+
+            setInterval(function(){
+                $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
+            },switchDelay);
+        });
+        </script>
+
+        <div id="viewer">
+          <img src="image/kabaneri (1).png">
+          <img src="image/kabaneri (2).png">
+          <img src="image/kabaneri (3).png">
+          <img src="image/kabaneri (4).png">
+        </div>
+      -->
+
+  </main>
+
+</body>

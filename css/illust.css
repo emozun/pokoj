@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*イラストページ*/
+body{
+  background-color:#fffaf0;
+}
+
+#illust-YOI{
+  width:60%;
+  margin: 2em auto;
+  border:solid 2px #a22041;
+  padding: 1em;
+  /*background-color: #c1e4e9;*/
+  border-radius: 1em;
+}
+
+#illust-YOI p{
+  font-size: 15px;
+}
+
+#illust-kabaneri{
+  width:60%;
+  margin: 2em auto;
+  border:solid 2px #a69425;
+  padding: 1em;
+
+  /*background-color: #d3ccd6;*/
+  border-radius: 1em;
+}
+
+#illust-kabaneri p{
+  font-size: 15px;
+}
+
+
+#illust-utapuri{
+  width:60%;
+  margin: 2em auto;
+  border:solid 2px #00a3af;
+  padding: 1em;
+  /*background-color: #d3ccd6;*/
+  border-radius: 1em;
+}
+
+#illust-utapuri p{
+  font-size: 15px;
+}
+
+
+
+#viwer{
+  margin: 0 auto;
+  width:800px;
+  height:600px;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+}
+
+#viwer img{
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+
+
+.img-thumb {
+  width:70px;
+    height:70px;
+    overflow:hidden;
+    position:relative;
+    border:1px solid #333;
+    display:inline-block;
+    }
+
+  .img-thumb img{
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    float: left;
+  }
