@@ -23,14 +23,17 @@
       </ul>
     </nav>
   </header>
-
   <main>
-     <div class="topillust">
-        <h1>POKOJ</h1>
-        <p>ポコイ</p>
-        </div>
+    <div class="topillust">
+      <h1>POKOJ</h1>
+      <p>ポコイ</p>
 
-<div id="imagemaparea">
+      <div id="go">
+        <!--<p>テスト</p>-->
+        <img src="image/go_1.png" alt="Goくん">
+      </div>
+
+      <div id="imagemaparea">
         <p><img src="image/madori.png" alt="間取り" usemap="#shape1" id="map1"></p>
         <map name="shape1">
           <area shape="rect" coords="155,170,270,235" href="index.html" alt="TOP" region="TOP">
@@ -39,8 +42,10 @@
           <area shape="rect" coords="155,430,436,716" href="illust.html" alt="ILLUST" region="ILLUST">
           <area shape="rect" coords="279,102,436,414" href="About.html" alt="ABOUT" region="ABOUT">
         </map>
-</div>
+      </div>
+    </div>
 
+    <div class="clear"></div>
 
       <script>
       $(document).ready(function ()
@@ -54,31 +59,6 @@
       });
       });
       </script>
-
-<!--
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script type="text/javascript">
-        $(function(){
-            var setImg = '#viewer';
-            var fadeSpeed = 1000;
-            var switchDelay = 6000;
-
-            $(setImg).children('img').css({opacity:'0'});
-            $(setImg + ' img:first').stop().animate({opacity:'1',zIndex:'20'},fadeSpeed);
-
-            setInterval(function(){
-                $(setImg + ' :first-child').animate({opacity:'0'},fadeSpeed).next('img').animate({opacity:'1'},fadeSpeed).end().appendTo(setImg);
-            },switchDelay);
-        });
-        </script>
-
-        <div id="viewer">
-          <img src="image/kabaneri (1).png">
-          <img src="image/kabaneri (2).png">
-          <img src="image/kabaneri (3).png">
-          <img src="image/kabaneri (4).png">
-        </div>
-      -->
 
   </main>
 
