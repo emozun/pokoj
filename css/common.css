@@ -121,12 +121,13 @@ div #imagemaparea {
     margin-bottom:-32767px;
     }
 
-#go:hover {
-  background-color: red;
-}
-#go:hover~#imagemaparea{
+
+
+
+#imagemaparea:hover~#go img {
   background-color: blue;
 }
+
 
 .clear{
   clear:both
