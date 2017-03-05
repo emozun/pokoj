@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+main{
+  background-color:#fffaf0;
+}
+
+.aboutpart{
+  width:60%;
+  margin: 2em auto;
+  border: solid 2px #a22041;
+  border-radius: 1em;
+}
+
+.aboutpart h1{
+  text-align: center;
+}
+
+.aboutpart p{
+  font-size: 10pt;
+  text-align: center;
+}
+
+.aboutpart2{
+  width:60%;
+  margin: 2em auto;
+  border: solid 2px #a69425;
+  border-radius: 1em;
+}
+
+.aboutpart2 h1{
+  text-align: center;
+}
+
+.aboutpart2 p{
+  font-size: 10pt;
+  text-align: center;
+}
+
+.sns{
+  text-align: center;
+  width:100%;
+  height:100%;
+}
+
+.niconico{
+  width:5%;
+  height:5%;
+
+}
+.twitter{
+  width:5%;
+  height:5%;
+
+}

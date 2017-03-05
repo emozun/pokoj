@@ -8,7 +8,7 @@ body{
   font-size: 10px;
   margin: 0;
   padding: 0;
-  /*background-color: #a22041;*/
+  background-color: #fffaf0;
   }
 
   section,article,aside,nav,header,main,footer{display:block;}
@@ -56,10 +56,8 @@ header nav ul li a {
    color: yellow;
    font-family:"Montserrat",sans-serif;
    font-size:15px;
-   width: 50%;
    padding:0 1em;
    text-decoration: none;
-
 }
 
 header nav ul li a:hover {color:white;}

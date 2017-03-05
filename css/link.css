@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+main{
+  background-color:#fffaf0;
+  text-align: center;
+}
+
+.link{
+  width:60%;
+  margin: 2em auto;
+  border: solid 2px #a69425;
+  border-radius: 1em;
+}
+
+h1{
+  font-size:15pt;
+  color:#a22041;
+}
+a {
+font-size: 10pt;
+}
